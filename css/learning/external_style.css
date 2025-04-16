@@ -1,0 +1,17 @@
+/*seletor de classes css*/
+.centralizado{
+    text-align: center;
+}
+/*propriedade: valor;*/
+.cabecao{
+    font-size: large;
+    color: blue;
+}
+.medio{
+    font-size: medium;
+    color: red;
+}
+.anao{
+    font-size: small;
+    color: green;
+}
