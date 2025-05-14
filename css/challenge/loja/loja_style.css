@@ -33,6 +33,7 @@ section{
 }
 
 .header{
+    background-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -74,13 +75,16 @@ section{
 
 .button{
     background-color: var(--main-color);
-    
     color: #000;
     padding: 1rem 3rem;
     font-size: 2rem;
     cursor: pointer;
     margin-top: 1rem;
     display: inline-block;
+}
+
+.button :hover{
+    size: 3rem;
 }
 
 .home_container section{
