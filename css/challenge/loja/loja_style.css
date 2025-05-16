@@ -1,8 +1,8 @@
 :root{
-    --main-color: #d3ad7f;
+    --main-color: 	#D2AA7D;
     --black: #13131a;
     --bg: #E0FFFF;
-    --border: 0.1rem solid rgba(224,255,255,0.3);
+    --border: 0.1rem solid rgba(0,0,0);
     font-size: 10px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 body{
-    background-color: var(--bg);
+    background: linear-gradient(to bottom,white, #def7fb)
 }
 
 section{
@@ -33,7 +33,7 @@ section{
 }
 
 .header{
-    background-color: #fff;
+    background-color: #def7fb;
     position: fixed;
     top: 0;
     left: 0;
@@ -47,12 +47,12 @@ section{
     justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    border-bottom: 1rem #000;
+    border-bottom: 1rem var(--border);
 }
 
 .navbar a{
     margin: 0 1rem;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     color: #000 ;
 }
 
@@ -60,7 +60,7 @@ section{
     color: var(--main-color);
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.5rem;
-    font-size: 2.2rem;
+    font-size: 2.8rem;
 }
 
 .icons img{
@@ -77,20 +77,20 @@ section{
     background-color: var(--main-color);
     color: #000;
     padding: 1rem 3rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     cursor: pointer;
     margin-top: 1rem;
     display: inline-block;
 }
 
-.button :hover{
-    size: 3rem;
+.button:hover{
+    letter-spacing: 0.1rem;
 }
 
 .home_container section{
     display: flex;
     align-items: center;
-    min-height: 75vh;
+    min-height: 80vh;
 }
 
 .content {
@@ -113,17 +113,23 @@ section{
     font-size: 5rem;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 1rem;
 }
 
 .title span{
     color: var(--main-color);
     text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.about{
+    border-color: #000;
 }
 
 .about .row{
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color:#EEF9FB;
     gap: 1.5rem;
 }
 
@@ -141,4 +147,40 @@ section{
     color: var(--black);
     padding: 1rem 0;
     line-height: 1.8;
+}
+
+.shop .box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    gap: 1.2rem;
+}
+
+.shop .title{
+    padding-bottom: 1rem;
+}
+
+.shop .box .caixa{
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+}
+
+.shop .box .caixa img{
+    height: 15rem;
+    border-radius: 30%;
+}
+
+.shop .box .caixa h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.shop .box .caixa .price{
+    color: #000;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+
+.shop .box .caixa:hover{
+    background-color:#F9FEFF;
 }
