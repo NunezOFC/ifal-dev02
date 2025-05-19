@@ -163,6 +163,7 @@ section{
     text-align: center;
     border: var(--border);
     padding: 2rem;
+    background-color:#def7fb;
 }
 
 .shop .box .caixa img{
