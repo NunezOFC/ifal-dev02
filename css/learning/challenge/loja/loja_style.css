@@ -94,7 +94,8 @@ section{
 }
 
 .content {
-    max-width: 60rem;
+    max-width: 70rem;
+    text-transform: none;
 }
 
 .content h3{
@@ -106,6 +107,7 @@ section{
     font-weight: 150;
     line-height: 1.6;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .title{
@@ -147,6 +149,7 @@ section{
     color: var(--black);
     padding: 1rem 0;
     line-height: 1.8;
+    text-transform: none;
 }
 
 .shop .box{
@@ -156,7 +159,7 @@ section{
 }
 
 .shop .title{
-    padding-bottom: 1rem;
+    padding: 1rem 0;
 }
 
 .shop .box .caixa{
@@ -168,12 +171,13 @@ section{
 
 .shop .box .caixa img{
     height: 15rem;
-    border-radius: 30%;
+    border-radius: 25%;
 }
 
 .shop .box .caixa h3{
     font-size: 2rem;
     padding: 1rem 0;
+    text-align: center;
 }
 
 .shop .box .caixa .price{
