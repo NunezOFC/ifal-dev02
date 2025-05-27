@@ -1,0 +1,1 @@
+Esse site é sobre uma loja de acessórios infantis, conhecida como Aqua Syreni, onde se é vendido tiaras, laços e combos
