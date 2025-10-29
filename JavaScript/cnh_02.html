@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Sistema de emissão de CNH
+      </title>
+  </head>
+  <body>
+      <p>Bem-vindos ao sistema de emissão de carteiras de motorista!</p>
+      <p id="message"></p>
+      
+      <script>
+        let age = 16;;
+        let msgpositive = "";
+        
+        if (age >= 18)
+            {
+                msg = "Você pode emitir a CNH"
+            } 
+        else 
+            {
+        msg = "Você ainda não pode emitir a CNH, tenha paciência!"
+            }
+
+        document.getElementById("message").innerHTML = msg;
+      </script>
+  </body>
+</html>
