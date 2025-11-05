@@ -1,0 +1,18 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function cumprimentar() {
+            alert("Olá, " + document.getElementById('name').value)
+        }
+    </script>
+    <title>O que o JS pode fazer?</title>
+</head>
+<body>
+    <form onsubmit="cumprimentar();">
+        <input id="name" type="text">
+        <input type="submit">
+    </form>
+</body>
+</html>
